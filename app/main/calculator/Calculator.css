@@ -1,0 +1,31 @@
+.custom-slider {
+    width: 100%;
+    height: 50px; /* Tinggi bar slider */
+    margin-top: 20px;
+    background: rgb(55 65 81 / var(--tw-bg-opacity)); /* Warna latar belakang bar */
+    border-radius: 1000px; /* Membuat sudut bar membulat */
+    position: relative;
+  }
+  
+  .custom-thumb {
+    height: 30px;
+    width: 30px;
+    background-color: #453f3f; /* Warna thumb */
+    border: 2px solid #fff; /* Border putih di sekitar thumb */
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Efek bayangan */
+    transition: transform 0.2s ease; /* Transisi saat hover */
+  }
+  
+  .custom-track {
+    height: 100%;
+    border-radius: 1000px;
+    position: absolute;
+    top: 0;
+  }
+  
+  

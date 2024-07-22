@@ -1,0 +1,19 @@
+.btn {
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+   /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    border-radius: 1000px;
+   }
+
+   .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+
+  .btn-1 {
+    background-image: linear-gradient(to right, #4dbad6 13.54%, #348cf4 50.52%, #7b48e8 85.94%);
+  }
+
+ 
+
